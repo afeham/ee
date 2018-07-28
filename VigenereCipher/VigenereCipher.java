@@ -1,8 +1,8 @@
 public class VigenereCipher {
     public static void main(String[] args){
-        String text = "APPLES";
+        String message = "APPLES";
         String key = "DOG";
-        String encrypted = encrypt(text, key);
+        String encrypted = encrypt(message, key);
         System.out.println("Your message: " + text);
         System.out.println("Encrypted Text: " + encrypted);
     }
